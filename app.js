@@ -226,10 +226,10 @@ function renderHome() {
   wrap.appendChild(
     el("p", { class: "disclaimer" },
       "Questions are based on the official Department of Home Affairs resource booklet " +
-      "\"Australian Citizenship: Our Common Bond\" (Parts 1-4 and the glossary of the testable section). " +
-      "The real test uses 4 answer options and includes 5 compulsory Australian values questions; " +
-      "this practice app uses 3 options per question for a faster review — " +
-      "use it for practice alongside, not instead of, the official material."
+      "\"Australian Citizenship: Our Common Bond\" (Parts 1-4 and the glossary of the testable section), " +
+      "with 4 answer options per question, matching the real test. The real test also includes " +
+      "5 compulsory Australian values questions, all of which must be answered correctly to pass — " +
+      "use this app for practice alongside, not instead of, the official material."
     )
   );
 
