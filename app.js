@@ -225,10 +225,11 @@ function renderHome() {
 
   wrap.appendChild(
     el("p", { class: "disclaimer" },
-      "Questions are written to reflect the general topics of the official Australian citizenship test " +
-      "(Australia and its people; democratic beliefs, rights and liberties; government and law). " +
-      "They are not sourced from the official test booklet and may not exactly match its wording or every fact — " +
-      "use this for practice alongside, not instead of, the official material."
+      "Questions are based on the official Department of Home Affairs resource booklet " +
+      "\"Australian Citizenship: Our Common Bond\" (Parts 1-4 and the glossary of the testable section). " +
+      "The real test uses 4 answer options and includes 5 compulsory Australian values questions; " +
+      "this practice app uses 3 options per question for a faster review — " +
+      "use it for practice alongside, not instead of, the official material."
     )
   );
 
